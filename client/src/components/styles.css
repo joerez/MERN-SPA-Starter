@@ -1,0 +1,14 @@
+body, html {
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  background: powderblue;
+  color: black;
+  padding-left: 1rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

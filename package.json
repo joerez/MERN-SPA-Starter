@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skedge-io/skedge.git"
+    "url": "git+https://github.com/joerez/campaign-manager"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skedge-io/skedge/issues"
+    "url": "https://github.com/joerez/campaign-manager/issues"
   },
-  "homepage": "https://github.com/skedge-io/skedge#readme",
+  "homepage": "https://github.com/joerez/campaign-manager",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",

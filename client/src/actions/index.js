@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { FETCH_USER, FETCH_APPOINTMENTS } from './types';
+import { FETCH_USER } from './types';
 import { push } from 'react-router-redux'
 
 

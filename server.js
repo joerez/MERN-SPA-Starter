@@ -3,8 +3,8 @@ const app = express();
 const port = process.env.PORT || '5000';
 
 const mongoose = require('mongoose');
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/campaign-manager', () => {
-  console.log("Connected to Campaign-Manager Database");
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mernstackapp', () => {
+  console.log("Connected to Database");
 });
 
 
@@ -25,9 +25,6 @@ app.use(cookieSession({
 app.use(passport.initialize());
 app.use(passport.session());
 
-//Initalize the texting object
-let texts = {};
-module.exports = {texts};
 
 //User Controller and Model
 const User = require('./models/User.js');
@@ -46,5 +43,5 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.listen(port, () => {
-  console.log("lets send some campaigns on port " + port);
+  console.log("App listening on " + port);
 })

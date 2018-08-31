@@ -1,5 +1,5 @@
 {
-  "name": "campaign-manager",
+  "name": "MERN-STARTER",
   "version": "1.0.0",
   "engines": {
     "node": "8.11.2"
@@ -20,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joerez/campaign-manager/issues"
+    "url": "https://github.com/joerez/MERN-SPA-starter"
   },
-  "homepage": "https://github.com/joerez/campaign-manager",
+  "homepage": "https://github.com/joerez/MERN-SPA-starter",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",

@@ -2,7 +2,7 @@
 This let's you quickly set up a MERN stack project.
 
 # What you need to do
-Clone the repo then give it one of these:
+Clone the repo then give it one of these bad boys:
 
 ```
 npm install
@@ -29,7 +29,7 @@ You should set your restrictions to the following:
 
 Now you've got a project with a NodeJS backend, a React, Redux frontend, built in authentication, and a proxy between the frontend and backend.
 
-GO take over the world now. Start up your envirment with:
+GO take over the world now. Start up your environment with:
 
 ```
 npm run dev
